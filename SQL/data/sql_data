@@ -1,0 +1,5 @@
+*AWS RDS 엔드포인트 :
+studydb.clocgy680wga.ap-northeast-2.rds.amazonaws.com
+
+*MySQL AWS 이용해 접속
+mysql -h studydb.clocgy680wga.ap-northeast-2.rds.amazonaws.com -P 3306 -u root -p

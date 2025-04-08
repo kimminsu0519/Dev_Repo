@@ -1,0 +1,20 @@
+const int PUSH_BUTTON = 2;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(PUSH_BUTTON, INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int button_status = digitalRead(PUSH_BUTTON);
+  if (button_status == HIGH)
+  {
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
+  if (button_status == LOW)
+  {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+}
